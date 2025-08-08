@@ -1,0 +1,184 @@
+$date
+	Wed Aug 07 01:29:17 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module traffic_light_tb $end
+$var wire 3 ! light_highway [2:0] $end
+$var wire 3 " light_farm [2:0] $end
+$var reg 1 # c $end
+$var reg 1 $ clk $end
+$var reg 1 % rst_n $end
+$scope module uut $end
+$var wire 1 # c $end
+$var wire 1 $ clk $end
+$var wire 1 % rst_n $end
+$var reg 3 & light_farm [2:0] $end
+$var reg 3 ' light_highway [2:0] $end
+$var reg 2 ( next_state [1:0] $end
+$var reg 2 ) state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+b0 (
+bx '
+bx &
+0%
+0$
+0#
+bx "
+bx !
+$end
+#2
+b1 !
+b1 '
+b100 "
+b100 &
+b0 )
+1$
+#4
+0$
+#6
+1$
+#8
+0$
+#10
+1$
+1%
+#12
+0$
+#14
+1$
+#16
+0$
+#18
+1$
+#20
+b1 (
+0$
+1#
+#22
+b10 !
+b10 '
+b1 )
+1$
+#24
+0$
+#26
+1$
+#27
+b10 (
+#28
+0$
+#30
+b100 !
+b100 '
+b1 "
+b1 &
+b10 )
+1$
+0#
+#32
+0$
+#34
+1$
+#36
+0$
+#38
+1$
+#40
+0$
+1#
+#42
+1$
+#44
+0$
+#46
+1$
+#48
+0$
+#50
+b11 (
+1$
+0#
+#52
+0$
+#54
+b10 "
+b10 &
+b11 )
+1$
+#56
+0$
+#58
+1$
+#59
+b0 (
+#60
+0$
+#62
+b1 !
+b1 '
+b100 "
+b100 &
+b0 )
+1$
+#64
+0$
+#66
+1$
+#68
+0$
+#70
+b1 (
+1$
+1#
+#72
+0$
+#74
+b10 !
+b10 '
+b1 )
+1$
+#76
+0$
+#78
+1$
+#79
+b10 (
+#80
+0$
+#82
+b100 !
+b100 '
+b1 "
+b1 &
+b10 )
+1$
+#84
+0$
+#86
+1$
+#88
+0$
+#90
+1$
+#92
+0$
+#94
+1$
+#96
+0$
+#98
+1$
+#100
+b11 (
+0$
+0#
